@@ -630,3 +630,33 @@ footer p {
     margin-top: 80px;
   }
 }
+@media (max-width: 768px) {
+   .icons {
+    margin-bottom: 4rem;
+   }
+   .input {
+    flex-direction: column;
+    margin-bottom: 10px;
+   }
+   .input input {
+    min-width: 350px;
+    border-radius: 3em;
+   }
+   .input button {
+    right: 4%;
+    position: absolute;
+   }
+   .input h3 {
+    text-align:start;
+    font-size: 13px;
+   }
+   .container_about {
+margin-top: 0px;
+   }
+   .general_contact .new {
+    font-size: 12px;
+   }
+   .general_contact p {
+    font-size: 11px;
+   }
+}
