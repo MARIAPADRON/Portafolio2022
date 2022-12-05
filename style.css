@@ -631,6 +631,25 @@ footer p {
   }
 }
 @media (max-width: 768px) {
+    .nav_taggle i {
+        font-size: 35px;
+        right: 20px;
+    }
+    .first_section h1 {
+        font-size: 40px;
+    }
+    .first_section span {
+        font-size: 40px;
+    }
+    .first_section p {
+        font-size: 19px;
+    }
+    .the_left p {
+        font-size: 13px;
+    }
+    .the_right p {
+        font-size: 13px;
+    }
    .icons {
     margin-bottom: 4rem;
    }
@@ -639,7 +658,7 @@ footer p {
     margin-bottom: 10px;
    }
    .input input {
-    min-width: 350px;
+    min-width: 300px;
     border-radius: 3em;
    }
    .input button {
@@ -651,12 +670,18 @@ footer p {
     font-size: 13px;
    }
    .container_about {
-margin-top: 0px;
+    top: 50px;
+   }
+   .container_about p{
+    text-align:left;
+   }
+   .container_contact {
+    max-width:max-content;
    }
    .general_contact .new {
     font-size: 12px;
    }
    .general_contact p {
-    font-size: 11px;
+    font-size: 10px;
    }
 }
